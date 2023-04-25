@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     preferredWallets: ['Ethos Wallet'],
     network: NETWORK
   };
+  console.log(ethosConfiguration, "jeff");
 
   return (
     <EthosConnectProvider
