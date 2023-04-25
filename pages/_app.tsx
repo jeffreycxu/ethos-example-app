@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <EthosConnectProvider
       ethosConfiguration={ethosConfiguration}
       dappName="EthosConnect Example App"
-      dappIcon={<ExampleIcon />}
       connectMessage="Your connect message goes here!"
     >
       <Component {...pageProps} />
